@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var drawerNavItem8 = document.getElementById("drawer-nav-ite8");
   var drawerNavItem9 = document.getElementById("drawer-nav-ite9");
   var drawerNavItem10 = document.getElementById("drawer-nav-ite10");
+  var drawerNavItem11 = document.getElementById("drawer-nav-ite11");
 
   toggleDrawer.onclick = function () {
     drawer.style.left = "0";
@@ -47,6 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     drawerNavItem10.style.left = "0";
     drawerNavItem10.style.transitionDelay = "1.2s";
+
+    drawerNavItem11.style.left = "0";
+    drawerNavItem11.style.transitionDelay = "1.4s";
   };
 
   closeDrawer.onclick = function () {
@@ -82,6 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     drawerNavItem10.style.left = "-100%";
     drawerNavItem10.style.transitionDelay = "50ms";
+
+    drawerNavItem11.style.left = "-100%";
+    drawerNavItem11.style.transitionDelay = "20ms";
   };
 });
 

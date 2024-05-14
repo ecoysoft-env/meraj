@@ -101,7 +101,8 @@ header .navigation-bar {
 #drawer-nav-ite7,
 #drawer-nav-ite8,
 #drawer-nav-ite9,
-#drawer-nav-ite10 {
+#drawer-nav-ite10,
+#drawer-nav-ite11 {
   position: relative;
   left: -100%;
   transition: 800ms;
