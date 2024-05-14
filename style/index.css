@@ -120,3 +120,57 @@ header .navigation-bar {
     width: 10rem;
   }
 }
+
+
+
+/* Trailer - Section */
+.trailer_section{
+  background-image: url(../imges/img/trailer_bg.jpg);
+  height: 100%;
+  width: 100%;
+  /* background-size: cover; */
+  /* filter: blur(2px); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trailer_footer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .trailer_section{
+    background-image: url(../imges/img/trailer_bg.jpg);
+    width: 150%;
+    background-size: cover;
+    /* filter: blur(2px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trailer_section .video{
+    height: 350px;
+  }
+  img{
+    height: 400px;
+  }
+  .trailer_footer{
+    display: flex;
+    margin-left: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  #nav-logo {
+    width: 15rem;
+    height: 100px;
+    margin-top: 10px;
+  }
+}
+
+

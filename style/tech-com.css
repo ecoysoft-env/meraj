@@ -89,3 +89,12 @@ body {
     height: 400vh;
   }
 }
+
+
+@media screen and (max-width: 576px) {
+  #nav-logo {
+    width: 15rem;
+    height: 100px;
+    margin-top: 10px;
+  }
+}
