@@ -124,10 +124,31 @@ info(btn5, image5, name5, infoDataContainer5);
 
 // --------6-------
 var btn6 = document.getElementById("go-info-btn6");
-var image6 = document.getElementById("deepika-img");
-var name6 = document.getElementById("deepika");
+var image6 = document.getElementById("rajinikanth-img");
+var name6 = document.getElementById("rajinikanth");
 var infoDataContainer6 = document.getElementById("info-data-container6");
 info(btn6, image6, name6, infoDataContainer6);
+
+// --------7-------
+var btn7 = document.getElementById("go-info-btn7");
+var image7 = document.getElementById("deepika-img");
+var name7 = document.getElementById("deepika");
+var infoDataContainer7 = document.getElementById("info-data-container7");
+info(btn7, image7, name7, infoDataContainer7);
+
+// --------8-------
+var btn8 = document.getElementById("go-info-btn8");
+var image8 = document.getElementById("Srinidhi-img");
+var name8 = document.getElementById("Srinidhi");
+var infoDataContainer8 = document.getElementById("info-data-container8");
+info(btn8, image8, name8, infoDataContainer8);
+
+// --------9-------
+var btn9 = document.getElementById("go-info-btn9");
+var image9 = document.getElementById("kriti-img");
+var name9 = document.getElementById("kriti");
+var infoDataContainer9 = document.getElementById("info-data-container9");
+info(btn9, image9, name9, infoDataContainer9);
 
 function info(btn, img, name, infoData) {
   var num = 0;
