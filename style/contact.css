@@ -185,3 +185,12 @@ body {
     margin-top: 40%;
   }
 }
+
+
+@media screen and (max-width: 576px) {
+  #nav-logo {
+    width: 15rem;
+    height: 100px;
+    margin-top: 10px;
+  }
+}
