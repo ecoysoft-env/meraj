@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRANCESE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body class="bg-neutral-400">
+    <header>
+      <section>
+        <div id="drawer">
+          <button id="closeDrawer">&#10005;</button>
+          <nav>
+            <ul>
+              <li id="drawer-nav-ite1"><a href="./">Home</a></li>
+              <li id="drawer-nav-ite2"><a href="./about.html">About me</a></li>
+              <li id="drawer-nav-ite3"><a href="./storia.html">Storia</a></li>
+              <li id="drawer-nav-ite4">
+                <a href="./famoso.html">Figura Famoso</a>
+              </li>
+              <li id="drawer-nav-ite5"><a href="./trailer.html">Trailer</a></li>
+              <li id="drawer-nav-ite6">
+                <a href="./advatising.html">Advertising</a>
+              </li>
+              <li id="drawer-nav-ite7"><a href="./Tech.html">Tech.com</a></li>
+              <li id="drawer-nav-ite8">
+                <a href="./stage.html">Ma Stage </a>
+              </li>
+              <li id="drawer-nav-ite9">
+                <a href="./francese.html">FRANCESE </a>
+              </li>
+              <li id="drawer-nav-ite10">
+                <a href="./contact.html">Contract</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section>
+        <div class="navigation-bar">
+          <div>
+            <button id="toggleDrawer">&#9776; Menu</button>
+          </div>
+          <div>
+            <a href="./">
+              <img
+                id="nav-logo"
+                src="imges/logo/bollywood_light_png.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="flex justify-center items-center w-[95%] m-auto pt-32">
+      <!-- PK start -->
+
+      <div class="card w-[50%] h-[50%] bg-base-100 shadow-xl">
+        <figure>
+          <img
+            class="w-[100%] h-[100%]"
+            src="imges/img/pk-banner.jpg"
+            alt="Shoes"
+          />
+        </figure>
+
+        <div class="card-body">
+          <!-- You can open the modal using ID.showModal() method -->
+          <button class="btn" onclick="my_modal_14.showModal()">Open</button>
+          <dialog id="my_modal_14" class="modal">
+            <div class="modal-box w-11/12 max-w-5xl">
+              <h3 class="font-bold text-4xl">PK !</h3>
+              <p class="py-4">
+                Un extraterrestre innocent atterrit sur Terre mais perd son
+                appareil de communication. Il rencontre Jaggu, un journaliste au
+                cœur brisé, et tente de retrouver son appareil. Avec le temps,
+                il soulève de nombreuses questions qui suscitent la réflexion.
+              </p>
+              <div>
+                <div class="stats shadow">
+                  <div class="stat">
+                    <div class="stat-figure text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        class="inline-block w-8 h-8 stroke-current"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="stat-title">Total Budget</div>
+                    <div class="stat-value text-primary">40+M €</div>
+                    <div class="stat-desc">Source: Wikipedia</div>
+                  </div>
+
+                  <div class="stat">
+                    <div class="stat-figure text-secondary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        class="inline-block w-8 h-8 stroke-current"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M13 10V3L4 14h7v7l9-11h-7z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="stat-title">Box Office</div>
+                    <div class="stat-value text-secondary">127+M</div>
+                    <div class="stat-desc">Source: Wikipedia</div>
+                  </div>
+
+                  <div class="stat">
+                    <div class="stat-figure text-secondary">
+                      <div class="avatar online">
+                        <div class="w-16 rounded-full">
+                          <img src="./imges/img/rajkumar-hirni.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="stat-value">79%</div>
+                    <div class="stat-title">Google User Review</div>
+                    <div class="stat-desc text-secondary">Source: Google</div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-4 h-[100%]">
+                <img class="rounded-xl" src="./imges/img/pk-ss-1.jpg" alt="" />
+                <img class="rounded-xl" src="./imges/img/pk-ss-2.jpg" alt="" />
+              </div>
+              <div class="modal-action">
+                <form method="dialog">
+                  <!-- if there is a button, it will close the modal -->
+                  <button
+                    class="btn bg-gray-100 px-12 py-3 text-black font-bold hover:bg-blue-200"
+                  >
+                    Close
+                  </button>
+                </form>
+              </div>
+            </div>
+          </dialog>
+        </div>
+      </div>
+    </main>
+    <footer style="margin: 40px">
+      <p style="text-align: center">
+        Design & Developed by
+        <a style="text-decoration: none" href="https://ecoysoft.com"
+          >ecoysoft environment Inc</a
+        >
+      </p>
+    </footer>
+    <!-- java script link   -->
+    <script src="js/script.js"></script>
+    <!-- gsap st-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- gsap end  -->
+  </body>
+</html>

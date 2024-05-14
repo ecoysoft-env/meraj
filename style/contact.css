@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff !important;
+}
+#contacts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6%;
+  max-width: 90%;
+  margin: 6% auto;
+}
+
+#contact-from h1 {
+  font-size: 3rem;
+  color: #1d9bf0;
+  font-weight: 700;
+  margin-bottom: 8%;
+}
+
+#contact-from button {
+  font-size: 1.5rem;
+  width: 25%;
+}
+#contact-from input {
+  padding: 3%;
+  width: 100%;
+  border-radius: 18px;
+  margin-top: 8%;
+}
+#contact-from textarea {
+  padding: 10px;
+  width: 100%;
+  border-radius: 18px;
+  margin-top: 6%;
+}
+#contact-from button {
+  margin-top: 6%;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  padding: 2.2%;
+  background-color: #1d9bf0;
+  color: white;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#contact-from button:hover {
+  background-color: black;
+  transform: scale(1.1);
+}
+
+#contact-from button > i {
+  margin-left: 10px;
+}
+#contact-from-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18%;
+}
+#contact-from-info > div {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin-top: 8%;
+}
+#contact-from-info > div > i {
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  border-radius: 100%;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+#contact-from-info > div > i:hover {
+  background-color: #1d9bf0;
+  transform: scale(1.1);
+}
+#contact-from-info > div > P {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#contact-from-info #profile {
+  display: flex;
+  gap: 10%;
+  margin-top: 15%;
+  margin-left: 35%;
+}
+#csend-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+}
+#contaci-image {
+  margin-top: 40%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+  #contacts-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0%;
+  }
+
+  #contact-from h1 {
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+  }
+
+  #contact-from button {
+    width: 100%;
+  }
+  #contact-from input {
+    border-radius: 12px;
+    margin-top: 5%;
+  }
+
+  #contact-from textarea {
+    border-radius: 12px;
+  }
+  #contact-from button {
+    border-radius: 10px;
+  }
+  #contact-from-info > div > i {
+    font-size: 1rem;
+  }
+
+  #contact-from-info #profile {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  #contacts-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+  }
+
+  #contact-from h1 {
+    font-size: 2.2rem;
+  }
+
+  #contact-from button {
+    width: 100%;
+  }
+  #contaci-image {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1400px) {
+  #contacts-container {
+    gap: 3%;
+    max-width: 95%;
+  }
+
+  #contact-from h1 {
+    font-size: 2.8rem;
+    margin-bottom: 5%;
+  }
+
+  #contact-from button {
+    width: 35%;
+  }
+  #contact-from input {
+    border-radius: 12px;
+    margin-top: 5%;
+  }
+  #contact-from textarea {
+    border-radius: 12px;
+  }
+
+  #contact-from-info {
+    margin-top: 19%;
+  }
+
+  #contact-from-info #profile {
+    margin-top: 12%;
+    margin-left: 25%;
+  }
+  #contaci-image {
+    margin-top: 40%;
+  }
+}
