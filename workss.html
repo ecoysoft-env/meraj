@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Work SS</title>
     <link rel="stylesheet" href="style/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <header>
@@ -17,7 +23,7 @@
               <li id="drawer-nav-ite2"><a href="./about.html">About me</a></li>
               <li id="drawer-nav-ite3"><a href="./storia.html">Storia</a></li>
               <li id="drawer-nav-ite4">
-                <a href="./famoso.html">Figura Famoso</a>
+                <a href="./famoso.html">Personaggi Famosi</a>
               </li>
               <li id="drawer-nav-ite5"><a href="./trailer.html">Trailer</a></li>
               <li id="drawer-nav-ite6">
@@ -58,15 +64,40 @@
       </section>
     </header>
 
-    <main style="margin: 60px auto">
-      <div class="workss-container">
-        <div class="workss-main">
-          <img src="./imges/img/work-ss-1.PNG" alt="" />
-          <img src="./imges/img/work-ss-2.PNG" alt="" />
+    <main>
+      <div>
+        <div class="flex flex-col w-full border-opacity-50">
+          <div
+            class="grid h-20 card bg-base-300 rounded-box place-items-center"
+          ></div>
         </div>
-        <div class="workss-main">
-          <img src="./imges/img/work-ss-3.PNG" alt="" />
-          <img src="./imges/img/work-ss-4.PNG" alt="" />
+      </div>
+
+      <div class="my-10">
+        <div class="flex flex-col w-full border-opacity-50">
+          <div
+            class="grid h-full card bg-base-300 rounded-box place-items-center"
+          >
+            <img src="./imges/img/work-ss-1.PNG" alt="" class="rounded-xl" />
+          </div>
+          <div class="divider">OR</div>
+          <div
+            class="grid h-full card bg-base-300 rounded-box place-items-center"
+          >
+            <img src="./imges/img/work-ss-2.PNG" alt="" class="rounded-xl" />
+          </div>
+          <div class="divider">OR</div>
+          <div
+            class="grid h-full card bg-base-300 rounded-box place-items-center"
+          >
+            <img src="./imges/img/work-ss-3.PNG" alt="" class="rounded-xl" />
+          </div>
+          <div class="divider">OR</div>
+          <div
+            class="grid h-full card bg-base-300 rounded-box place-items-center"
+          >
+            <img src="./imges/img/work-ss-4.PNG" alt="" class="rounded-xl" />
+          </div>
         </div>
       </div>
     </main>
